@@ -1,6 +1,6 @@
 # baixiu
 > Development process
-* 1.[相关介绍]()
+* 1.[相关介绍](https://github.com/Uncle-He/baixiu/tree/master/01-introduce.md)
 * 2.[准备工作]()
 * 3.[管理后台登录]()
 * 4.[管理后台仪表板]()
