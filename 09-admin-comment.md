@@ -50,7 +50,6 @@ Note left of 客户端: 通过 DOM 操作将数据\n渲染到空的页面结构�
 
 <!-- 答：还是 php 文件，原因有二：1. 访问控制；2. 更加统一 -->
 
-> 🚩 源代码: step-58
 
 ### 数据接口
 
@@ -133,8 +132,6 @@ echo json_encode(array(
 ));
 ```
 
-> 🚩 源代码: step-59
-
 #### comment-delete.php
 
 参考分类删除或者文章删除。
@@ -160,7 +157,6 @@ echo json_encode(array(
 ));
 ```
 
-> 🚩 源代码: step-60
 
 #### comment-status.php
 
@@ -186,7 +182,6 @@ echo json_encode(array(
 ));
 ```
 
-> 🚩 源代码: step-61
 
 有了接口过后，我们就可以通过在页面中执行 AJAX 操作调用这些接口，实现相对应的功能了。
 
@@ -235,7 +230,6 @@ $.get('/admin/comment-list.php', { p: 1, s: 30 }, function (res) {
 })
 ```
 
-> 🚩 源代码: step-62
 
 不用往下写了，一旦涉及到这种数据加载渲染的问题，就会涉及到大量的字符串拼接问题，费劲还容易错，总之很不爽。
 
@@ -325,13 +319,12 @@ $tbody.html(html)
 </script>
 ```
 
-> 🚩 源代码: step-63
 
 ### 分页组件展示
 
 我们之前写的生成分页 HTML 是在服务端渲染分页组件，只能作用在服务端渲染数据的情况下。但是当下的情况我们采用的是客户端渲染的方案，自然就用不了之前的代码了，但是思想是相通的，我们仍然可以按照之前的套路来实现，只不过是在客户端，借助于 JavaScript 实现。
 
-> ✏️ 作业：
+
 > 实现一个 JavaScript 版本的分页组件
 
 <!-- http://esimakin.github.io/twbs-pagination/ -->
@@ -363,7 +356,6 @@ $.get('/admin/comment-list.php', { p: 1, s: size }, function (res) {
 })
 ```
 
-> 🚩 源代码: step-64
 
 我们后续都会在 `onPageClick` 加载指定页的数据：
 
@@ -392,7 +384,6 @@ $.get('/admin/comment-list.php', { p: 1, s: size }, function (res) {
 })
 ```
 
-> 🚩 源代码: step-65
 
 ### 删除评论
 
@@ -437,7 +428,6 @@ $tbody.on('click', '.btn-delete', function () {
 })
 ```
 
-> 🚩 源代码: step-66
 
 #### 发送删除评论的异步请求
 
@@ -453,7 +443,6 @@ $tbody.on('click', '.btn-delete', function () {
 })
 ```
 
-> 🚩 源代码: step-67
 
 个人认为删除成功过后，不应该单单从界面上的表格中移除当前行，而是重新加载当前页数据。
 
@@ -514,7 +503,6 @@ $tbody.on('click', '.btn-delete', function () {
 })
 ```
 
-> 🚩 源代码: step-68
 
 ### 修改评论状态
 
@@ -528,7 +516,6 @@ $tbody.on('click', '.btn-edit', function () {
 })
 ```
 
-> 🚩 源代码: step-69
 
 ### 批量操作
 
@@ -554,7 +541,6 @@ $tbody.on('change', 'td > input[type=checkbox]', function () {
 })
 ```
 
-> 🚩 源代码: step-70
 
 #### 全选 / 全不选
 
@@ -568,7 +554,6 @@ $('th > input[type=checkbox]').on('change', function () {
 })
 ```
 
-> 🚩 源代码: step-71
 
 #### 批量操作按钮点击
 
@@ -597,11 +582,7 @@ $btnBatch
   })
 ```
 
-> 🚩 源代码: step-72
 
-> ✏️ 作业：
 > 解决刷新过后继续加载指定页码下的数据
 
 <!-- 1. localStorage; 2. history API -->
-
-> 🚩 源代码: step-73
