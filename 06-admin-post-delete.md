@@ -95,7 +95,6 @@ post.php
 </td>
 ```
 
-> 🚩 源代码: step-34
 
 ### 跳转到来源
 
@@ -127,7 +126,6 @@ $target = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'posts.ph
 header('Location: ' . $target);
 ```
 
-> 🚩 源代码: step-35
 
 ---
 
@@ -147,7 +145,6 @@ xiu_execute(sprintf('delete from posts where id in (%s)', $_GET['id']));
 // $sql => delete from posts where id in (22,23,24)
 ```
 
-> 🚩 源代码: step-36
 
 ### 选中状态切换过程删除按钮的变换
 
@@ -231,7 +228,6 @@ $thCheckbox.on('change', function () {
 })
 ```
 
-> 🚩 源代码: step-37
 
 <!-- 要求熟练掌握以上功能的实现 -->
 
