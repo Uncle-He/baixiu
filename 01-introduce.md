@@ -11,7 +11,7 @@
 
 **管理员（编辑）通过网站后台管理界面（发布、维护）自媒体内容**
 
-![image](https://github.com/Uncle-He/baixiu/blob/master/media/admin.png)
+![管理后台](https://github.com/Uncle-He/baixiu/blob/master/media/admin.png)
 
 * 用户登录
    * 登录界面可以根据是否填写表单内容拒绝登录操作
@@ -47,7 +47,7 @@
    
 **用户可以通过网站前台查看内容**
 
-![image](https://github.com/Uncle-He/baixiu/blob/master/media/front.png)
+![前台展示](https://github.com/Uncle-He/baixiu/blob/master/media/front.png)
 
 * 公共模块
    * 通过左侧边栏导航菜单访问不同分类内容
