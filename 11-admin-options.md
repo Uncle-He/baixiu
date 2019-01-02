@@ -98,5 +98,3 @@ echo json_encode(array(
   'success' => $affected_rows > 0
 ));
 ```
-
-> 🚩 源代码: step-75
