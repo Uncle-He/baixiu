@@ -51,7 +51,6 @@ $(function () {
 })
 ```
 
-> 🚩 源代码: step-76
 
 --
 
@@ -129,8 +128,6 @@ loadData(function (err, data) {
   $('tbody').html($('#menu_tmpl').render(data))
 })
 ```
-
-> 🚩 源代码: step-77
 
 ```js
 /**
