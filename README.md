@@ -7,7 +7,7 @@
 * 5.[管理后台文章列表](https://github.com/Uncle-He/baixiu/tree/master/05-admin-post-list.md)
 * 6.[管理后台删除文章](https://github.com/Uncle-He/baixiu/tree/master/06-admin-post-delete.md)
 * 7.[管理后台新增文章](https://github.com/Uncle-He/baixiu/tree/master/07-admin-post-add.md)
-* 8.[管理后台分类管理](https://github.com/Uncle-He/baixiu/tree/master/08-category.md)
+* 8.[管理后台分类管理](https://github.com/Uncle-He/baixiu/tree/master/08-admin-category.md)
 * 9.[管理后台评论管理](https://github.com/Uncle-He/baixiu/tree/master/09-admin-comment.md)
 * 10.[管理后台用户管理](https://github.com/Uncle-He/baixiu/tree/master/10-admin-user.md)
 * 11.[管理后台配置选项](https://github.com/Uncle-He/baixiu/tree/master/11-admin-options.md)
