@@ -1,4 +1,4 @@
-# baixiu
+# BAIXIU
 > Development process
 * 1.[相关介绍](https://github.com/Uncle-He/baixiu/tree/master/01-introduce.md)
 * 2.[准备工作]()
